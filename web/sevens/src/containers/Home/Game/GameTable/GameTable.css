@@ -1,0 +1,94 @@
+.gameTable {
+  width: 60%;
+  height: 60%;
+  border: 5px solid black;
+  background-color: #800000;
+  min-width: 150px;
+  min-height: 200px;
+  margin-left: 40px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+}
+
+.gameTable div {
+  color: white;
+  padding: 70px 0px 0px 40px;
+}
+
+div.gamePlayer,
+div.gamePlayerJoined {
+  margin: 15px;
+}
+
+div.top-players,
+div.bottom-players {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 900px) and (orientation: portrait) {
+  .gameTable {
+    height: 50%;
+  }
+  div.right-players {
+    margin-left: -10px;
+  }
+  div.right-players div.gamePlayer,
+  div.right-players div.gamePlayerJoined {
+    margin-top: 15px;
+  }
+
+  div.left-players div.gamePlayer,
+  div.left-players div.gamePlayerJoined {
+    margin-top: 15px;
+  }
+
+  div.top-players,
+  div.bottom-players {
+    margin-left: 55px;
+  }
+  div.gamePlayer,
+  div.gamePlayerJoined {
+    margin: 10px;
+  }
+  div.left-players {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .gameTable {
+    height: 50%;
+  }
+  div.right-players div.gamePlayer,
+  div.right-players div.gamePlayerJoined {
+    margin-top: 15px;
+  }
+
+  div.left-players div.gamePlayer,
+  div.left-players div.gamePlayerJoined {
+    margin-top: 15px;
+  }
+
+  div.top-players,
+  div.bottom-players {
+    margin-left: 100px;
+  }
+  div.top-players div.gamePlayer,
+  div.bottom-players div.gamePlayer,
+  div.top-players div.gamePlayerJoined,
+  div.bottom-players div.gamePlayerJoined {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  div.gamePlayer,
+  div.gamePlayerJoined {
+    margin: 10px;
+  }
+  div.right-players {
+    margin-left: -10px;
+  }
+  div.left-players {
+    margin-right: 20px;
+  }
+}

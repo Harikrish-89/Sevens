@@ -1,0 +1,7 @@
+/.vscode/launch.json
+/.vscode/settings.json
+/api/.vscode/launch.json
+/web/package-lock.json
+/web/sevens/.gitignore
+/web/sevens/.vscode/launch.json
+/web/sevens/package-lock.json
