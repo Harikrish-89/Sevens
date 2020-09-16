@@ -1,0 +1,2 @@
+# Sevens
+Sevens application
